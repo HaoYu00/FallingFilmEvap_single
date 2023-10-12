@@ -1,0 +1,21 @@
+1.creat enviroment
+$ conda create -n venv_ornl python=3.9.12 (版本)
+
+2.activate enviroment
+$ conda activate venv_ornl
+
+3.import / export enviroment
+$ conda env export > venv_ornl.yaml
+$ conda env create -f venv_ornl.yaml
+
+4.deactivate enviroment
+$ deactivate
+
+5.list enviroment
+$ conda env list
+
+6.delete enviroment
+$ conda env remove -n environment_name
+
+7. package program
+$ pyinstaller -F -c -n NYCU_ORNL_Falling_Film .\example.py 

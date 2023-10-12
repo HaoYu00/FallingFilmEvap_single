@@ -1,0 +1,25 @@
+{
+  "Tube": {
+    "Length": { "Value": 1, "Unit": "m" },
+    "Diameter": { "Value": 0.019, "Unit": "m" },
+    "D2": { "Value": 0.0001, "Unit": "m" },
+    "Thickness": { "Value": 0.001, "Unit": "m" },
+    "TCX": { "Value": 400, "Unit": "W/m-K" },
+    "Tube_Type": "GEWA-B",
+    "N_tube_Verti": { "Value": 5, "Unit": "" }
+  },
+  "Tube_side": {
+    "Fluid": "Water",
+    "mdot": { "Value": 1, "Unit": "kg/s" },
+    "T_in": { "Value": 300, "Unit": "K" },
+    "P_in": { "Value": 101325, "Unit": "Pa" }
+  },
+  "Shell_side": {
+    "Fluid": "R134a",
+    "mdot_LIQ": { "Value": 10, "Unit": "kg/s" },
+    "j_LIQ": { "Value": 0.0001, "Unit": "kg/s" },
+    "j_VAP": { "Value": 0.0001, "Unit": "kg/s" },
+    "T_in": { "Value": 280, "Unit": "K" }
+  },
+  "citation": "Hao-YuLin, M Muneeshwaran, Cheng-Min Yang, Kashif Nawaz, Chi-Chuan Wang, 'On Falling Film Evaporator - A Review of Mechanisms and Critical Assessment of Correlation on a Horizontal Tube Bundle With Updated Development', International Communications On Heat & Mass Transfer, 2023"
+}
